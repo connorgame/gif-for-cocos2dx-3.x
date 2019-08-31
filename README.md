@@ -29,5 +29,7 @@ sc->addRegisterCallback(gif::js_register_all);
 
 // in some js file
 var gif = myjsb.Gif.create('res/g1.gif');
+
 gif.setPosition(200, 200);
+
 this.addChild(gif);
