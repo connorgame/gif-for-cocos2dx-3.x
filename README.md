@@ -24,7 +24,9 @@ this->addChild(gif);
 
 js
 
-//#include "gif/gif_jsb.h" // in AppDelegate.cpp file
+// in AppDelegate.cpp file
+
+//#include "gif/gif_jsb.h" 
 
 ScriptingCore* sc = ScriptingCore::getInstance();
 sc->addRegisterCallback(gif::js_register_all);
