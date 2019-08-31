@@ -7,6 +7,8 @@ use gif widget just like a Sprite:
 
 c++
 
+// in some js file
+
 //#include "gif/gif.h"
 
 std::string name = "g1.gif";
@@ -28,6 +30,7 @@ ScriptingCore* sc = ScriptingCore::getInstance();
 sc->addRegisterCallback(gif::js_register_all);
 
 // in some js file
+
 var gif = myjsb.Gif.create('res/g1.gif');
 
 gif.setPosition(200, 200);
