@@ -1,5 +1,5 @@
 # gif-for-cocos2dx-3.x
-a gif lib for cocos2d-x 3.x（c++, lua, js, cocos creator）
+a gif lib for cocos2d-x 3.x（c++, js）
 
 # Use 
 
