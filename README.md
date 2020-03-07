@@ -5,11 +5,9 @@ a gif lib for cocos2d-x 3.x（c++, js）
 
 use gif widget just like a Sprite:
 
-c++
+# c++
 
-// in some js file
-
-//#include "gif/gif.h"
+#include "gif/gif.h"
 
 std::string name = "g1.gif";
 
@@ -22,16 +20,16 @@ gif->setPosition(Point(200, 200));
 this->addChild(gif);
 
 
-js
+# js
 
-// in AppDelegate.cpp file
+// in cpp file
 
-//#include "gif/gif_jsb.h" 
+#include "gif/gif_jsb.h" 
 
 ScriptingCore* sc = ScriptingCore::getInstance();
 sc->addRegisterCallback(gif::js_register_all);
 
-// in some js file
+// in js file
 
 var gif = myjsb.Gif.create('res/g1.gif');
 
